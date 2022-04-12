@@ -1,5 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4306818.svg)](https://doi.org/10.5281/zenodo.4306818)
 
+This is a forked repository from [YAMSPy](https://github.com/thecognifly/YAMSPy) where I added the possibility to work witn async. 
+The examples will not work with this version.
+
 # YAMSPy
 Yet Another Implementation of [Multiwii](https://github.com/multiwii) Serial Protocol Python Interface for [Betaflight](https://github.com/betaflight/betaflight), [iNAV](https://github.com/iNavFlight/inav), etc.
 
