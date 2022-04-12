@@ -20,20 +20,11 @@ This work is ***EXPERIMENTAL*** and it has been made publicly available expectin
 ## Installation (Python3 because [you should not use Python2 anymore](https://www.python.org/doc/sunset-python-2/)):
 Option #1: Clone the repo so you will have the examples
 ```
-$ git clone https://github.com/ricardodeazambuja/YAMSPy.git
-$ cd YAMSPy
-$ sudo pip3 install .
+$ git clone https://github.com/miguelwon/YAMSPy-Async
+$ cd YAMSPy-Async
+$ pip install .
 ```
 
-Option #2: Install directly from git (the `--upgrade` is to make sure it will install the last commit, even if the version number didn't increase)
-```
-$ sudo pip3 install git+git://github.com/ricardodeazambuja/yamspy --upgrade
-```
-
-On Linux you may need to add your user to the dialout group:  
-```
-$ sudo usermod -a -G dialout $USER
-```
 
 ## Examples:
 The directory [Examples](https://github.com/ricardodeazambuja/YAMSPy/tree/master/Examples) (duh!) has some commented examples showing how to use the library.
