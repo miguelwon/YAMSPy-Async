@@ -6,7 +6,7 @@ if sys.version_info < (3, 7):
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-    
+
 setup(
     name="yamspy",
     packages=[package for package in find_packages()],
@@ -20,7 +20,7 @@ setup(
     url="https://github.com/thecognifly/YAMSPy",
     download_url="https://github.com/thecognifly/YAMSPy/archive/refs/tags/v0.3.3.tar.gz",
     keywords=['CogniFly', 'Betaflight', 'iNAV', 'drone', 'UAV', 'Multi Wii Serial Protocol', 'MSP'],
-    install_requires=['pyserial'],
+    install_requires=['pyserial','asyncio','aioserial'],
     classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
