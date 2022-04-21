@@ -8,19 +8,19 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="yamspy",
+    name="yamspy_async",
     packages=[package for package in find_packages()],
     version="0.3.3",
     license="GPL",
-    description="Yet Another Implementation of Multiwii Serial Protocol Python Interface for Betaflight, iNAV, etc.",
+    description="Fork of YAMSPY where async was added",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Ricardo de Azambuja",
-    author_email="ricardo.azambuja@gmail.com",
-    url="https://github.com/thecognifly/YAMSPy",
-    download_url="https://github.com/thecognifly/YAMSPy/archive/refs/tags/v0.3.3.tar.gz",
+    author="",
+    author_email="",
+    url="https://github.com/miguelwon/YAMSPy-Async",
+    download_url="https://github.com/miguelwon/YAMSPy-Async/archive/refs/heads/master.zip",
     keywords=['CogniFly', 'Betaflight', 'iNAV', 'drone', 'UAV', 'Multi Wii Serial Protocol', 'MSP'],
-    install_requires=['pyserial','asyncio','aioserial'],
+    install_requires=['pyserial','asyncio','aioserial','approxeng.input'],
     classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
